@@ -50,6 +50,7 @@
 
 .about-section {
 	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
 .jessica {
@@ -60,39 +61,58 @@
 .about-title {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
+  color: #67889C;
+  font-size: 32px;
+
 }
 
 .about-text {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  color: #67889C;
 }
 
 /* technology-section */
 
 .technology-section {
-	background-color: #1D2A3D;
-	height: 300px;
+  background-color: #1D2A3D;
+  padding-top: 35px;
+  padding-bottom: 40px;
 }
 
 .technology-title {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   text-align: center;
-  color: #FFFFFF;
+  color: #A0CBC8;
+  font-size: 32px;
+  padding-top: 40px;
+
 }
 
-.technology-text {
+.skillset {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   text-align: center;
-  color: #FFFFFF;
+  color: #53A3E2;
+  font-size: 32px;
 }
+
+.otherskills {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  text-align: center;
+  color: #53A3E2;
+  font-size: 15px;
+}
+
 
 .learning-trajectory {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   text-align: center;
-  color: #FFFFFF;
+  color: #A0CBC8;
+  padding-top: 10px;
 }
 
 /* footer */
