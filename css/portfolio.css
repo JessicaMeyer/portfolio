@@ -1,0 +1,36 @@
+@import "colors";
+
+/* nav section and hero section */
+
+.hero { 
+  height: 600px;
+  width: 100%;
+  background-image:url("https://raw.githubusercontent.com/JessicaMeyer/portfolio/master/IMG_6893.jpg");
+  background-repeat: no-repeat;;
+  background-size: cover;
+  background-position: center;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+
+/* hero logo, wording and buttons */
+
+.hero-title {
+  text-align: center;
+  font-family: $font-family;
+  font-weight: 400;
+  margin-top: 30px;
+}
+
+#browsebutton {
+  font-family: $font-family;
+  font-weight: 500;
+}
+
+/* about section */
+
+.jessica {
+	border-radius: 999px;
+}
