@@ -84,12 +84,16 @@
 
 <!--portfolio section-->
 
-<!--contact-->
+<!--quote section-->
 
-<!-- footer -->
+<div class="quote-section">
+   <p class="quote"> " Creativity is looking at what everyone else looks at but seeing what no one else sees. "</p> <span class="author"> Paul J. Meyer </span>
+</div>
+
+<!--footer section-->
 
 <div class="footer-section">
- 
+
 </div>
 
 <!--scripts-->
@@ -102,17 +106,12 @@
     
     <script>
 
-    (function ($) {
-  $(document).ready(function(){
+  (function ($) {
+     $(document).ready(function(){
+        $(".navbar").hide();
 
-    // hide .navbar first
-    $(".navbar").hide();
-
-    // fade in .navbar
     $(function () {
         $(window).scroll(function () {
-
-                 // set distance user needs to scroll before we start fadeIn
             if ($(this).scrollTop() > 300) {
                 $('.navbar').fadeIn();
             } else {
