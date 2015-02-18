@@ -15,7 +15,7 @@
 
 <!--navigation-->
 
-<div class="nav-bar">
+<div class="navbar">
   <div class="row">
     <div class="large-6 columns">
       jessica
@@ -33,12 +33,13 @@
 
     <center>
      
-      <h3 class="hero-title">Join BookWorm to find (and save!) all the books you want to read</h3><br>
-
-      <div class="large-6 large-centered columns">
-        <a href="/books" class="button radius" id="browsebutton">Browse Categories</a>
+      <h3 class="hero-name"> Jessica Meyer Votaw </h3>
+      <p class="hero-text"> Full Stack Web Developer </p>
+       
+       <div class="large-6 large-centered columns">
+        <a href="#" class="button radius" id="viewportfolio">View Portfolio</a>
       </div>
-      
+
     </center>
 
   </div>
@@ -77,6 +78,31 @@
     <script>
       $(document).foundation();
     </script>
+    
+    <script>
 
+    (function ($) {
+  $(document).ready(function(){
+
+    // hide .navbar first
+    $(".navbar").hide();
+
+    // fade in .navbar
+    $(function () {
+        $(window).scroll(function () {
+
+                 // set distance user needs to scroll before we start fadeIn
+            if ($(this).scrollTop() > 300) {
+                $('.navbar').fadeIn();
+            } else {
+                $('.navbar').fadeOut();
+            }
+        });
+    });
+
+});
+  }(jQuery));
+
+    </script>
   </body>
 </html>
