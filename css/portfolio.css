@@ -3,7 +3,7 @@
 /* nav section and hero section */
 
 .hero { 
-  height: 700px;
+  height: 600px;
   width: 100%;
   background-image:url("https://raw.githubusercontent.com/JessicaMeyer/portfolio/master/images/ranch.jpg");
   background-repeat: no-repeat;;
@@ -28,19 +28,14 @@
 
 .hero-name {
   text-align: center;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  margin-top: 30px;
-  color: #FFFFFF;
   margin-top: 200px;
-  font-size: 80px;
 }
 
 .hero-text {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   color: #FFFFFF;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 #viewportfolio {
