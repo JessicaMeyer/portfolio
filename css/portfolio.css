@@ -3,7 +3,7 @@
 /* nav section and hero section */
 
 .hero { 
-  height: 600px;
+  height: 700px;
   width: 100%;
   background-image:url("https://raw.githubusercontent.com/JessicaMeyer/portfolio/master/images/ranch.jpg");
   background-repeat: no-repeat;;
@@ -55,7 +55,7 @@
 
 .jessica {
 	border-radius: 999px;
-	width: 300px;
+	width: 340px;
 }
 
 .about-title {
@@ -92,24 +92,29 @@
 
 .skillset {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   text-align: center;
   color: #53A3E2;
   font-size: 32px;
+  margin-left: 3px;
+  margin-right: 3px;
 }
 
 .otherskills {
   font-family: 'Roboto', sans-serif;
-  font-weight: 200;
+  font-weight: 300;
   text-align: center;
   color: #53A3E2;
   font-size: 15px;
+  margin-left: 3px;
+  margin-right: 3px;
+
 }
 
 
 .learning-trajectory {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 200;
   text-align: center;
   color: #A0CBC8;
   padding-top: 10px;
@@ -126,16 +131,15 @@
 .quote {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  text-align: center;
   color: #67889C;
   font-size: 48px;
+  text-align: center;
 }
 
 .author {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   float: right;
-  padding-right: 30px;
   color: #53A1C8;
   font-size: 34px;
 }
@@ -143,8 +147,39 @@
 /* footer */
 
 .footer-section {
-	background-color: #A0CBC8;
+  background-color: #53A3E2;
+  padding-top: 65px;
+  padding-bottom: 65px;
 }
 
+.footer-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 34px;
+  padding-top: 20px;
+}
 
+.footer-icons {
+	text-align: center;
+	padding-bottom: 20px;
+}
 
+.copyright {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+.resume {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 18px;
+  padding-top: 20px;
+}
