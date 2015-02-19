@@ -142,7 +142,6 @@
 	padding-top: 40px;
 	padding-bottom: 50px;
 	background-color: #ffffff;
-	height: 300px;
 }
 
 .planning-title {
@@ -152,6 +151,18 @@
   color: #53A3E2;
   font-size: 34px;
   padding-top: 20px;
+}
+
+.planning-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #53A1C8;
+  text-align: center;
+  margin-top: 3px;
+}
+
+.planningimage {
+	margin-top: -15px;
 }
 
 /* portfolio section */
@@ -171,7 +182,6 @@
   font-size: 34px;
   padding-top: 20px;
 }
-
 
 /* quote section */
 
