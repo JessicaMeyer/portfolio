@@ -162,7 +162,7 @@
 }
 
 .planningimage {
-	margin-top: -15px;
+  margin-top: -15px;
 }
 
 /* portfolio section */
@@ -171,7 +171,6 @@
 	padding-top: 40px;
 	padding-bottom: 50px;
 	background-color: #f8f8f8;
-	height: 300px;
 }
 
 .portfolio-title {
@@ -181,6 +180,42 @@
   color: #17A797;
   font-size: 34px;
   padding-top: 20px;
+}
+
+.project-name {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  text-align: center;
+  color: #67889C;
+  font-size: 30px;
+}
+
+#rsvp {
+	padding-top: 25px;
+}
+
+.project-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  color: #53A1C8;
+  font-size: 15px;
+
+}
+
+.portpicture {
+  width: 500px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.repo {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  color: #53A1C8;
+  font-size: 25px;
+  margin-top: 40px;
 }
 
 /* quote section */
