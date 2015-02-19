@@ -136,6 +136,43 @@
   padding-top: 10px;
 }
 
+/* planning section */
+
+.planning-section {
+	padding-top: 40px;
+	padding-bottom: 50px;
+	background-color: #ffffff;
+	height: 300px;
+}
+
+.planning-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  text-align: center;
+  color: #53A3E2;
+  font-size: 34px;
+  padding-top: 20px;
+}
+
+/* portfolio section */
+
+.portfolio-section {
+	padding-top: 40px;
+	padding-bottom: 50px;
+	background-color: #f8f8f8;
+	height: 300px;
+}
+
+.portfolio-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  text-align: center;
+  color: #17A797;
+  font-size: 34px;
+  padding-top: 20px;
+}
+
+
 /* quote section */
 
 .quote-section {
