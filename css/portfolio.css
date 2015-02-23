@@ -109,24 +109,35 @@
 }
 
 .skillset {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
   text-align: center;
-  color: #53A3E2;
-  font-size: 32px;
   margin-left: 3px;
   margin-right: 3px;
 }
 
-.otherskills {
+.skillword {
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #53A3E2;
+  font-size: 32px;
+  padding: 8px;
+  font-size: 32px;
+}
+
+.otherskillset {
+  text-align: center;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.otherskillword {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   text-align: center;
   color: #53A3E2;
   font-size: 15px;
-  margin-left: 3px;
-  margin-right: 3px;
-
+  display: inline-block;
+  padding: 6px;
 }
 
 
